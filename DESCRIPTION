@@ -1,0 +1,20 @@
+Package: Codak
+Type: Package
+Title: Covariate and direction adaptive knockoff procedure
+Version: 0.3.0
+Authors@R: c(person("Liyuan","Zheng",role="aut"),person("Zhaoyang","Tian",role="aut"),person("Kun","Liang",email="kun.liang@uwaterloo.ca",role=c("aut","cre")),person("Pengfei","Li",role="aut"))
+Description: The R package is a supplement of the paper \dQuote{Control the false discovery
+    rate with complex auxiliary information} by Liyuan Zheng, Zhaoyang Tian, Kun Liang and Pengfei Li.
+License: GPL-3
+Imports: mgcv (>= 1.9.0), glmnet (>= 4.0), HDtweedie (>= 1.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Packaged: 2024-02-20 15:23:59 UTC; zlymac
+Author: Liyuan Zheng [aut],
+  Zhaoyang Tian [aut],
+  Kun Liang [aut, cre],
+  Pengfei Li [aut]
+Maintainer: Kun Liang <kun.liang@uwaterloo.ca>
